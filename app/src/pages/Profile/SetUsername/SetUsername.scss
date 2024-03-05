@@ -1,0 +1,16 @@
+.setUsername-main {
+    display: grid;
+    place-content: center;
+    height: 100dvh;
+    gap: 2rem;
+
+    span {
+        font-weight: 500;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

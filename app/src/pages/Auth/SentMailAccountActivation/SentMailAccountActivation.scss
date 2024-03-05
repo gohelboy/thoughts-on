@@ -1,0 +1,22 @@
+.main-sent-mail-acocunt-activation {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    height: 100dvh;
+    overflow: hidden;
+
+
+    .content-box {
+        border: 5px dotted rgba(0, 0, 0, 0.3);
+        padding: 1rem;
+        width: 80%;
+        display: grid;
+        gap: 1rem;
+        place-content: center;
+        place-items: center;
+
+        .animation {
+            width: 150%;
+        }
+    }
+}

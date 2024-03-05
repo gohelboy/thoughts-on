@@ -1,0 +1,79 @@
+.login-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 1rem;
+    min-height: 100dvh;
+    background: var(--global-background-color);
+
+    .logo {
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+    }
+
+    .comp-button {
+        img {
+            width: 22px !important;
+        }
+    }
+
+    .deviders {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        gap: 8px;
+        color: var(--text-fade-color);
+
+        .devider {
+            height: 1px;
+            background: rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+    }
+
+    .login-form-section {
+        padding: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        .form {
+            min-width: 300px;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            .fields {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                width: 100%;
+
+                .link {
+                    align-self: flex-end;
+                    font-size: small;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .link {
+            font-size: 14px;
+            font-weight: 500;
+
+            a {
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+}

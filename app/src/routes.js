@@ -1,0 +1,15 @@
+export const routes = {
+    landingPage: "/thoughts-on",
+    homepage: "/home",
+    login: "/login",
+    signup: "/signup",
+    activateAccount: "/activate-account",
+    activatationPage: '/activate',
+    usernameSelection: "/signup/username-selection",
+    forgotPassword: "/forgot-password",
+    resetPassword: "/reset-password",
+    logout: "/logout",
+    profile: "/profile",
+    notfound: "/notfound",
+    googleLogin: "/google-login",
+}

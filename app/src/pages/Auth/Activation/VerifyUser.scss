@@ -1,0 +1,28 @@
+.main-verifyuser {
+    display: grid;
+    height: 100dvh;
+    place-content: center;
+    align-content: center;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+
+
+        .animation {
+            width: 25%;
+        }
+
+        .message {
+            width: 300px;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+
+
+}
